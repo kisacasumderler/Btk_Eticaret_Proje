@@ -1,0 +1,225 @@
+@media only screen and (max-width:1200px) {
+
+    body header, footer .cardImages {
+        width: 100%;
+    }
+
+    footer .footerNav, body main, .HomeFooter {
+        width: 95%;
+    }
+    
+    body header, footer .cardImages {
+        width: 100%;
+    }
+
+    footer .footerNav, body main {
+        width: 95%;
+    }
+    footer .footerNav {
+        justify-content: space-evenly;
+    }
+    main {
+        padding: 5% 0;
+    }
+}
+
+@media only screen and (max-width:990px) {
+    .Hesabim .colLeft,
+    .Hesabim .colRight {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .Hesabim .colLeft {
+        margin: 5rem 0;
+    }
+    .urunBilgileri li:nth-child(4) form button {
+        width: 35%;
+    }
+}
+
+@media only screen and (max-width:720px) {
+    .footerNav ul {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    footer .cardImages {
+        flex-wrap: wrap;
+    }
+    .Adresler .AdresCard {
+        width: 100%;
+    }
+    .HomeFooter {
+        grid-template-columns: auto auto;
+        width: 100%;
+    }
+    footer .footerNav {
+        grid-template-columns: auto auto;
+        gap: 1rem;
+        align-items: flex-start;
+    }
+    
+    .urunBilgileri li:nth-child(4) form button {
+        width: 50%;
+    }
+    .hb_Formu {
+        flex-direction: column;
+    }
+    .colRightBody {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .hesabimRow {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logoandMenu nav {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        background: #F9F9F9;
+    }
+    .logoandMenu nav .navbar {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    nav .logo {
+        width: 10%;
+        height: 4rem;
+    }
+    nav .logo img {
+        width: 4rem;
+        height: 4rem;
+        z-index: 100;
+    }
+    .urunBilgileri li:nth-child(4) form button {
+        width: 100%;
+    }
+    .SepetDetay {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .SepetUrunler li:not(:first-child) {
+        flex-wrap: wrap;
+        width: 100%;
+        border: 1px solid #dadada;
+        padding: 1rem 0;
+    }
+    .SepetUrunler li:not(:first-child) span:first-child img {
+        width: 50%;
+        height: 100%;
+    }
+    .SepetUrunler li:not(:first-child) span:first-child {
+        text-align: center;
+        width: 100%;
+    }
+    .SepetUrunler li:not(:first-child) span:not(:first-child) {
+        width: 20%;
+    }
+    .SepetUrunBilgiler {
+        width: 100%;
+    }
+    .hesabimRow li:first-child {
+        border-left: none;
+        border-right: none;
+    }
+    .hesabimRow li {
+        border-right: none;
+    }
+    .Adresler .hesabimRow li:first-child, .Adresler .hesabimRow li {
+        border: none;
+    }
+    .Kapsam ul:first-child {
+        width: 100%;
+    }
+    .urunlerListele {
+        grid-template-columns: auto auto;
+        gap: 1rem;
+        padding: 1rem;
+    }
+    .urunHeader img {
+        width: 100%;
+    }
+    .Kapsam {
+        flex-direction: column;
+    }
+    .MenuVeBanner li.BannerSistemi {
+        display: none;
+    }
+    .navbarIcons {
+        display: block;
+    }
+    .OnpenIcon {
+        display: inline-block;
+    }
+    .logoandMenu nav .navbar {
+        display: none;
+    }
+    .mobileBar {
+        display: block;
+        width: 100%;
+        text-align: end;
+        padding: .5rem;
+    }
+    .menulerHeader {
+        text-align: justify;
+    }
+    .boximg {
+        width: 200px;
+    }
+    .HomeKategoriler {
+        grid-template-columns: auto;
+        gap: 0;
+    }
+    .webKategori {
+        display: none;
+    }
+    .mobileKategori {
+        display: grid;
+    }
+    .slider_btn img {
+        width: 30px;
+        height: 30px;
+    }
+    #WebSlider {
+        display: none;
+    }
+    #MobileSlider {
+        display: block;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .HomeFooter {
+        grid-template-columns: auto;
+        border-bottom: 1px dashed #353745;
+    }
+    footer .footerNav  {
+        grid-template-columns: auto;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .urunDetaylar {
+        flex-direction: column;
+    }
+    .urunResimleri {
+        width: 100%;
+    }
+    .formgroup {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .boximg {
+        width: 150px;
+    }
+}

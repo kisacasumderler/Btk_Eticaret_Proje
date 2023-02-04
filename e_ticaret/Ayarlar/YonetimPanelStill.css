@@ -1,0 +1,653 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    letter-spacing: .05rem;
+}
+
+.butonAlan {
+    padding: .5rem;
+}
+
+.btnHamburger {
+    font-size: 1rem;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+    width: 1.5rem;
+    display: inline-block;
+    filter: invert(100%);
+}
+
+
+span {
+    display: inline-block;
+}
+
+img {
+    display: inline-block;
+}
+
+.SiteBaslik {
+    font-size: 1.4rem;
+    padding: .5rem;
+    background: #0088CC;
+    color: #fff;
+}
+
+.SiteBg {
+    background: #f9f9f9;
+}
+
+.active {
+    display: block;
+    padding: .5rem;
+    text-align: center;
+    color: white;
+    background: #0088CC;
+    border: 1px solid transparent;
+    transition: .3s;
+    font-size: 1.25rem;
+}
+
+.fsize1_5 {
+    font-size: 1.5rem;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.width50 {
+    width: 50%;
+}
+
+.Height100 {
+    height: 100%;
+}
+
+.width25 {
+    width: 25%;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+.textCenter {
+    text-align: center;
+}
+.textCenter a img {
+    filter: invert(100%);
+}
+.minheight100 {
+    min-height: 100vh;
+    height: 100%;
+}
+
+.flexColumnCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexRowStart {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.flexRowCenter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.gap1 {
+    gap: 1rem;
+}
+
+input[type=text]:disabled {
+    color: red;
+    border: 2px solid transparent;
+    background: #f5d5c6;
+}
+
+::placeholder {
+    color: #ff8787;
+    opacity: 1;
+    font-style: italic;
+}
+
+:-ms-input-placeholder {
+    color: #ff8787;
+    font-style: italic;
+}
+
+::-ms-input-placeholder {
+    color: #ff8787;
+    font-style: italic;
+}
+
+input,
+select,
+option {
+    height: 3rem;
+    padding: .5rem;
+    font-size: 1rem;
+    border-radius: .3rem;
+    border: 2px solid transparent;
+    background: #fff;
+}
+
+textarea {
+    padding: .5rem;
+    border: 2px solid transparent;
+    background: #fff;
+}
+
+a.btn:link,
+a.btn:visited,
+a.btn:active {
+    display: block;
+    padding: .5rem;
+    text-align: center;
+    color: white;
+    background: #04263d;
+    border: 1px solid transparent;
+    transition: .3s;
+}
+
+a.btn:hover {
+    border: 1px solid #fff;
+}
+
+a.dark:link,
+a.dark:visited,
+a.dark:active {
+    transition: .3s;
+}
+
+a.dark:link,
+a.dark:visited,
+a.dark:active {
+    color: white;
+}
+
+a.dark:hover {
+    text-decoration: underline;
+}
+
+a.light:link,
+a.light:visited,
+a.light:active {
+    color: #646465;
+    transition: .3s;
+}
+
+a.light:hover {
+    color: #0088CC;
+}
+
+/* yonetici Giriş  */
+
+.UyeGiris {
+    min-height: 100vh;
+    background: #04263d;
+    color: #fff;
+}
+
+.UyeGiris form {
+    width: 25%;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.33);
+    padding: 1rem;
+    border-radius: .5rem;
+    min-height: 50vh;
+    background: #04263d;
+}
+
+.UyeGiris form h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.formgroup label {
+    display: block;
+    margin-bottom: .5rem;
+}
+
+.UyeGiris form button {
+    width: 25%;
+    padding: .5rem;
+    background: green;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+/* ana sayfa */
+
+.solSutun {
+    width: 3rem;
+}
+
+.solmenu {
+    background-color: #04263d;
+    border-right: 2px solid #fff;
+    padding: .5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.HomeMenu {
+    margin: 1rem 0;
+}
+
+.HomeMenu li .btn {
+    font-size: 1.2rem;
+    border-bottom: 1px dashed #0088CC;
+}
+
+.HomeMenu li .btn:hover {
+    border: 1px solid transparent;
+    background: #0088CC;
+}
+
+/* form grup */
+.FormClass {
+    padding: 2rem 5%;
+}
+
+.formGrup {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.FormClass .formGrup:last-child {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.formGrup label {
+    width: 100%;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #454545;
+    text-transform: capitalize;
+    padding: .5rem;
+}
+
+.formGrup input,
+.formGrup textarea {
+    width: 400%;
+    font-size: 100;
+    color: #9e9e9e;
+    border: 1px solid #9e9e9e;
+    overflow: hidden;
+}
+
+.formGrup input[type=file] {
+    padding: 0;
+    border: 1px solid transparent;
+}
+
+.formGrup input:focus,
+.formGrup textarea:focus {
+    border: 1px solid green;
+    color: #454545;
+}
+
+.formGrup textarea:focus {
+    overflow: auto;
+    height: 50vh;
+}
+
+.formGrup button {
+    width: 20%;
+    background: green;
+    border: 0;
+    color: white;
+    padding: .5rem 0;
+    border-radius: .2rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.formGrup button:hover {
+    background: rgb(0, 112, 0);
+}
+
+.formCokluGrup label {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #454545;
+    text-transform: capitalize;
+    padding: .5rem;
+}
+
+.formCokluGrup input {
+    font-size: 100;
+    color: #9e9e9e;
+    border: 1px solid #9e9e9e;
+    overflow: hidden;
+}
+
+.formCokluGrup input:focus {
+    border: 1px solid green;
+    color: #454545;
+}
+
+.InputAddBtn {
+    width: 5rem;
+    font-weight: bolder;
+    font-size: 3rem;
+    padding: 0 1rem;
+    margin: 0 1rem;
+    color: green;
+    cursor: pointer;
+    border: 1px solid green;
+    border-radius: 50%;
+}
+
+.BtnDiv {
+    text-align: end;
+    padding: .5rem;
+}
+
+.disableBtn {
+    display: inline-block;
+    padding: .5rem 1rem;
+    background: gray;
+    color: #f9f9f9;
+    font-size: 1rem;
+    border-radius: .15rem;
+    transition: .3s;
+    text-align: center;
+}
+
+.addBtn {
+    display: inline-block;
+    padding: .5rem 1rem;
+    background: green;
+    color: #f9f9f9;
+    font-size: 1rem;
+    border-radius: .15rem;
+    transition: .3s;
+    letter-spacing: .07rem;
+}
+
+.addBtn:hover {
+    background: rgb(0, 115, 0);
+}
+
+.addBtn span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: .1rem .5rem;
+    border-radius: 50%;
+    text-align: center;
+}
+
+/* listeler  */
+.ListGrup {
+    padding: 1rem;
+    color: #454545;
+    border-top: .5px dashed #9e9e9e;
+    border-bottom: .5px dashed #9e9e9e;
+}
+
+.ListGrup div {
+    padding: .1rem;
+}
+
+.ListBaslik {
+    font-weight: bold;
+}
+
+.GuncelleBtn {
+    width: 100%;
+    padding: .5rem;
+    color: #fff;
+    transition: .3s;
+    text-align: center;
+    border-radius: .15rem;
+    background: #0088CC;
+}
+
+.GuncelleBtn:hover {
+    background: #0077b3;
+}
+
+.SilBtn {
+    width: 100%;
+    padding: .5rem;
+    color: #fff;
+    transition: .3s;
+    text-align: center;
+    border-radius: .15rem;
+    background: red;
+}
+
+.SilBtn:hover {
+    background: rgb(219, 2, 2);
+}
+
+.BannerImg {
+    max-height: 200px;
+    float: left;
+    margin-right: 1rem;
+    max-width: 100%;
+}
+
+/* sayfalama */
+
+.sayfalama,
+.sayfalarKapsam {
+    text-align: center;
+}
+
+.sayfalarKapsam,
+.SayfalamaButtons {
+    padding: .5rem 0;
+}
+
+.SayfalamaButtons span {
+    margin: 0 .5rem;
+}
+
+.SayfalamaButtons span svg {
+    width: 25px;
+    height: 25px;
+    margin-bottom: -8px;
+}
+
+.aktif {
+    background: #0077b3;
+    color: #fff;
+    padding: .5rem;
+}
+
+/* arama alanı  */
+
+.aramaKutusu {
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.aramaKutusu form {
+    gap: .5rem;
+}
+
+.aramaKutusu input {
+    width: 100%;
+    border-radius: .5rem;
+    border: 2px solid #959595;
+}
+
+.aramaKutusu input:focus {
+    border: 2px solid black;
+    text-align: left;
+}
+
+.aramaKutusu input,
+.aramaKutusu button {
+    padding: .5rem;
+
+}
+
+.aramaKutusu button {
+    cursor: pointer;
+    border-radius: 50%;
+    display: none;
+}
+
+.imgGroup {
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.imgGroup img {
+    width: 15rem;
+}
+
+.urunKapsam {
+    align-items: center;
+}
+
+.displayGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 350px);
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.uruncard {
+    border: 1px solid #9e9e9e;
+    text-align: center;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.uruncard div:first-child {
+    background-color: #0077b3;
+    color: #fff;
+}
+
+.uruncard div {
+    padding: .5rem;
+}
+
+.UrunDetaySagTaraf {
+    border-left: 1px solid #9e9e9e;
+}
+
+.UrunDetaySagTaraf div {
+    padding: .5rem 1rem;
+    width: 100%;
+}
+
+.UrunDetaySagTaraf div:last-child {
+    background: #0077b3;
+    color: white;
+}
+
+.InputClass {
+    padding: 1rem;
+    border: 1px solid #9e9e9e;
+    height: 3rem;
+}
+
+.InputClass:focus {
+    border: 1px solid green;
+}
+
+.kutularKapsam {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.kutularKapsam div {
+    box-shadow: 1px 1px 5px #9e9e9e;
+}
+
+.kutularKapsam div span {
+    padding: 1rem;
+    display: block;
+    text-align: center;
+    color: #454545;
+}
+
+.kutularKapsam div span:first-child {
+    background: #f9f9f9;
+}
+
+.kutularKapsam div span:last-child {
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+@media(max-width:1200px) {
+    .kutularKapsam {
+        grid-template-columns: auto auto auto;
+    }
+    .UyeGiris form {
+        width: 50%;
+    }
+}
+
+@media(max-width:990px) {
+
+}
+
+@media(max-width:720px) {
+    .formGrup {
+        flex-direction: column;
+    }
+
+    .formGrup input,
+    .formGrup label,
+    .formGrup textarea {
+        width: 100%;
+    }
+
+    .BannerImg {
+        width: 100%;
+        height: 100%;
+    }
+
+    .kutularKapsam {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width:600px) {
+    .UyeGiris form {
+        width: 90%;
+    }
+}
+
+@media(max-width:400px) {
+    .kutularKapsam {
+        grid-template-columns: auto;
+    }
+}

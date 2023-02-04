@@ -1,0 +1,1481 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+}
+
+*:not(input,textarea){
+    border: 0;
+}
+
+/* flex column  */
+.manset,
+header .logoandMenu,
+footer,
+.footerNav ul,
+.colLeft,
+.colRight,
+.hb_Formu form,
+.colRightBody,
+.havaleBF_sonuc,
+.kargomNerede form,
+.DestekPage ul,
+.DestekPage ul li,
+.Adresler .AdresCard,
+.SayfalamaButtons span,
+.UrunBody ul,
+.UrunBody ul li,
+body,
+html,
+.sozlesmeler,
+.Kapsam,
+.MenuVeBanner li,
+.Menuler nav,
+.urunBilgileri,
+.SepetUrunBilgiler, .SepetUrunler,
+.SepetUrunler li span:nth-child(5) span,
+.OdemeTuruSecim
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* flex row  */
+.uyelik li,
+.uyelik,
+.logoandMenu nav,
+nav .navbar,
+.followus li,
+footer .cardImages,
+.hb_Formu,
+.formgroup,
+.colRightBody h3,
+.soruCevap h3,
+.UyelikFormu .formgroup:nth-child(7) label,
+.hesabimRow,
+.Adresler,
+.AdresCard li,
+.adresBtn,
+.SayfalamaButtons,
+.puan label,
+.UrunBody,
+.YorumCard li:first-child,
+.Kapsam,
+.aramaKutusu form,
+.UrunDetay,
+.SepetUrunler li span:nth-child(5) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+body,
+html {
+    color: #646465;
+    background: white;
+    line-height: 1.5;
+    letter-spacing: .04rem;
+}
+
+.non_select {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+/* footer nav  */
+
+footer .footerNav {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+/*justfiy-content:flex-start*/
+body, html, .footerNav ul, .followus li, .b_card ul, .b_card ul li, .b_card, .colLeft, .colRight, .hb_Formu form, .formgroup, .colRightBody h3, .colRightBody, .DestekPage ul, .DestekPage ul li, .UyelikFormu .formgroup:nth-child(7) label, .UrunBody ul, .UrunBody ul li, .YorumCard li:first-child, .FavCard li:nth-child(2) {
+    justify-content: flex-start;
+}
+
+a.dark:link,
+a.dark:visited,
+a.dark:active {
+    transition: .3s;
+}
+a.dark:link, a.dark:visited, a.dark:active, .sozlesmeler h2, .formgroup button, .urunBilgileri li:nth-child(4) form button {
+    color: white;
+}
+a.dark:hover {
+    text-decoration: underline;
+}
+
+a.light:link,
+a.light:visited,
+a.light:active {
+    color: #646465;
+    transition: .3s;
+}
+
+a.light:hover {
+    color: #0088CC;
+}
+
+body header,
+body main,
+footer .footerNav,
+footer .cardImages, .HomeFooter {
+    width: 65.71741511500548vw;
+}
+
+.logoandMenu nav, footer .footerNav, .soruCevap h3, .hesabimRow {
+    justify-content: space-between;
+}
+
+.logoandMenu nav, .sozlesmeler h2, .b_card, .formgroup input, .formgroup label, .formgroup select, .soruCevap h3, .adresBtn, .puan label, .UrunBody ul{
+    padding: .5rem;
+}
+
+.manset {
+    background-color: #353745;
+    padding: .5rem 0;
+}
+
+.manset,
+.manset img,
+.uyelik,
+.logoandMenu,
+.logoandMenu nav,
+body footer,
+.hb_Formu,
+.colLeft,
+.colRight,
+.colLeft h2,
+.colRight h2,
+.colLeft p,
+.colRight p,
+.formgroup,
+.hb_Formu form,
+.formgroup input,
+.formgroup select,
+.formgroup textarea,
+.colRightBody,
+.havaleBF_sonuc,
+.kargomNerede form,
+.kargomNerede form .formgroup,
+.DestekPage ul,
+.DestekPage ul li,
+.soruCevap p,
+.soruCevap h3,
+.Hesabim
+.hesabimRow,
+.Adresler .hesabimRow,
+.Adresler .colRight,
+.Adresler,
+.Adresler .AdresCard li,
+.adresBtn,
+.sayfalarKapsam,
+.SayfalamaButtons,
+.UrunBody,
+.UrunBody .urunFoto,
+.UrunBody ul,
+.UrunBody ul li,
+.Yorumlar,
+.YorumCard,
+.logo img,
+footer p,
+.sozlesmeler,
+.sozlesmeler h2,
+.b_hesaplar,
+.b_card .cardHeader,
+.UyelikFormu .formgroup:nth-child(7) label,
+.hesabimRow li,
+.SiparisCard li span,
+.SayfalamaButtons span svg,
+.puan input, .puan label,
+.urunFoto img,
+.UrunBody ul li span:first-child,
+.YorumCard li,
+body,
+html,
+.Kapsam,
+.Kapsam li,
+.Kapsam,
+.MenuVeBanner,
+.MenuVeBanner li,
+.menulerHeader,
+.BannerHeader,
+.Menuler nav,
+.menulerHeader nav a,
+.Menuler,
+.BannerSistemi img,
+.aramaKutusu,
+.aramaKutusu form,
+.urunDetay,
+.urunDetay span a,
+.UrunDetay,
+.urunBilgileri,
+.SepetDetay, .SepetUrunler, .sepetHeader, .SepetDetay ul li,
+.OdemeTuruSecim, .OdemeTuruSecim li {
+    width: 100%;
+}
+
+nav .logo, .UyelikFormu .formgroup:nth-child(7) input {
+    width: 5%;
+}
+
+.logo img, .SayfalamaButtons span svg, .puan input, .puan label, .urunFoto img, body,
+html {
+    height: 100%;
+}
+.uyelik, .kargomNerede .formgroup button, .puan label, .sozlesmeler h2, .hesabimRow li:hover, .Hesabim .hesabimRow li:hover a, .SayfalamaButtons span.aktif {
+    background: #0088CC;
+}
+.uyelik {
+    padding: .3rem 1rem;
+}
+.uyelik, nav .navbar, footer, .b_hesaplar, .colLeft, .colRight, .hb_Formu form, .colRightBody h3, .colRightBody, .havaleBF_sonuc, .kargomNerede form, .DestekPage ul li, .UyelikFormu .formgroup:nth-child(7), .Adresler .AdresCard, .UrunBody ul, .YorumCard li:first-child, .SepetUrunler, .SepetUrunBilgiler, .OdemeTuruSecim {
+    gap: 1rem;
+}
+.uyelik, .formgroup:last-child, .adresBtn, .SiparisCard li:last-child{
+    justify-content: flex-end;
+}
+
+.uyelik li, .b_card ul li, .Adresler .AdresCard li, .adresBtn, .UrunBody ul li {
+    gap: .5rem;
+}
+
+.uyelik li img, .SayfalamaButtons span {
+    width: 20px;
+    height: 20px;
+}
+
+.navbar li a, .footerNav h1, .footerNav h1 a, .sozlesmeler h2, .b_card ul li span:nth-child(1), .colLeft h2, .colRight h2, .colRightBody h3 span, .havaleBF_sonuc h3, .soruCevap h3 span, .UyelikFormu .formgroup:nth-child(7) a, .SayfalamaButtons span a, .puan label, .YorumCard li span:first-child, .urunDetay span a, .urunBilgileri li:last-child h3, .urunYorumlari h1, .yorumlar_ h2 {
+    font-weight: bold;
+}
+
+footer, .b_card, .Adresler .AdresCard li:first-child, .Adresler .AdresCard li:last-child, .YorumCard li:first-child{
+    background: #F9F9F9;
+}
+
+footer {
+    padding: 2rem 0;
+}
+
+footer .footerNav, .footerNav ul, .b_card ul, .b_card ul li, .b_card, .colLeft, .colRight, .hb_Formu, .colRightBody, .DestekPage ul, .DestekPage ul li, .UrunBody ul, .UrunBody ul li {
+    align-items: flex-start;
+}
+
+.footerNav ul,.followus li, .GirisFormu .formgroup:nth-child(3){
+    gap: .3rem;
+}
+
+.followus li img {
+    width: 16px;
+    height: 16px;
+}
+
+.footerNav h1 {
+    border-bottom: 1px solid #353745;
+    margin-bottom: .5rem;
+}
+footer p, .b_card .cardHeader, .colLeft h2, .colRight h2, .colLeft p, .colRight p, .havaleBF_sonuc p, .hesabimRow li, .Adresler .AdresCard li, .sayfalarKapsam, .menulerHeader, .BannerHeader, .aramaKutusu input, .urunDetay span, .urunDetay span a, .urunHeader {
+    text-align: center;
+}
+footer p {
+    border-top: 1px dashed #353745;
+    padding-top: 1rem;
+}
+
+footer .cardImages {
+    gap: .4rem;
+}
+
+main {
+    padding: 2% 0;
+    margin-bottom: 5%;
+}
+
+/* sözleşmeler */
+
+.sozlesmeler h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+/* banka hesaplar */
+
+.b_hesaplar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 2rem 1rem;
+
+}
+
+.b_hesaplar, .b_card {
+    border-radius: .5rem;
+}
+
+.b_hesaplar, .kargomNerede .formgroup:last-child, .UyelikFormu .formgroup:nth-child(7), .UyelikFormu .formgroup:last-child, .GirisFormu .formgroup:last-child, .SifreSifirlama .formgroup:last-child {
+    justify-content: center;
+}
+
+.b_card {
+    width: 360px;
+    margin-bottom: .3rem;
+}
+
+.b_card ul,
+.b_card ul li,
+.b_card {
+    display: flex;
+    flex-direction: column;
+}
+
+.b_card ul li {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.b_card .cardHeader {
+    margin: -1rem;
+}
+
+.b_card .cardHeader img {
+    margin: 1rem;
+    width: 80px;
+    height: 36px;
+}
+
+/* Havale bildirim Formu, iletişim formu, üye ol formu, giriş yap formu */
+
+.hb_Formu {
+    gap: 1.5rem;
+}
+
+.colLeft h2,
+.colRight h2 {
+    font-size: 1.3rem;
+    color: rgb(255, 106, 0);
+}
+
+.colLeft p,
+.colRight p {
+    border-bottom: 1px dashed #646465;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.formgroup label {
+    width: 50%;
+}
+
+.formgroup label span {
+    color: red;
+}
+
+.formgroup input, .formgroup label, .formgroup select {
+    height: 2rem;
+}
+
+.formgroup button {
+    width: 50%;
+    padding: .5rem 0;
+    background: rgb(0, 161, 0);
+    border-radius: .1rem;
+}
+
+.formgroup button, .soruCevap h3, .hesabimRow li, .Adresler .AdresCard li:last-child span, .puan input, .puan label, .puan input {
+    cursor: pointer;
+}
+
+.colRightBody h3 span {
+    font-size: 1.1rem;
+}
+
+.colRightBody p {
+    border: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+/* havale bildirim sonuç sayfaları  */
+
+.havaleBF_sonuc {
+    margin: 10% 0;
+}
+
+.havaleBF_sonuc h3 {
+    font-size: 1.1rem;
+}
+
+.havaleBF_sonuc a {
+    font-weight: bolder;
+}
+
+.havaleBF_sonuc img {
+    margin-bottom: 2rem;
+}
+/* kargom nerede  */
+.kargomNerede form {
+    margin-top: 5rem;
+}
+.kargomNerede p {
+    border-bottom: 1px dashed #353745;
+    padding-bottom: 1rem;
+}
+.kargomNerede .formgroup button {
+    width: 30%;
+    transition: .3s ease-in;
+}
+.kargomNerede .formgroup button:hover {
+    background-color: green;
+    border-radius: .2rem;
+}
+
+.kargomNerede .formgroup label {
+    width: 25%;
+}
+
+/* destek sayfası */
+
+.DestekPage p.ilkP {
+    margin-bottom: 2rem;
+    padding: 1rem 0;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 3px 2px #6464652d;
+}
+
+.DestekPage ul {
+    gap: 2rem;
+}
+
+.soruCevap h3 {
+    transition: .3s;
+    border-bottom: 1px dashed #646465;
+    background-color: #F9F9F9;
+    z-index: 2;
+}
+
+.soruCevap h3:hover {
+    border-bottom: 1px dashed #0088CC;
+}
+
+.UyelikFormu .formgroup:nth-child(7) {
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.UyelikFormu .formgroup:nth-child(7) a {
+    text-decoration : underline;
+}
+
+/* giriş formu  */
+
+.GirisFormu .formgroup:nth-child(3) a {
+    font-weight: bolder;
+}
+
+/* hesabım  */
+
+.Hesabim .colRight .colRightBody p {
+    font-size: 1.2rem;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.Hesabim .formgroup input,
+.formgroup select, textarea {
+    color: #FF7A38;
+}
+
+.Hesabim {
+    flex-wrap: wrap;
+    gap: 2%  /* media query de px ya da rem ver aşağı atar */
+}
+
+.Hesabim .colLeft,
+.Hesabim .colRight {
+    width: 49%;
+}
+
+/* uyelik bilgiler , adresler favoriler, yorumlar, siparişler  */
+
+.hesabimRow {
+    border-top: 1px solid #646465;
+    border-bottom: 1px solid #646465;
+    margin-bottom: 5%;
+}
+
+.hesabimRow li {
+    padding: 1rem;
+}
+
+.hesabimRow li {
+    border: 1px solid transparent;
+    border-right: 1px dashed #646465;
+    transition: .2s;
+}
+
+
+.hesabimRow li:first-child {
+    border-left: 1px dashed #646465
+}
+
+
+.hesabimRow li:hover,
+.hesabimRow li:hover a {
+    color: #ffff;
+    border: 1px solid transparent;
+}
+
+/* adresler  */
+
+.Adresler {
+    flex-wrap: wrap;
+    gap: 1%;
+}
+
+.Adresler .AdresCard {
+    width: 32%;
+    border: 1px dotted #353745;
+    margin-bottom: 1rem;
+}
+.Adresler .AdresCard li {
+    padding: 0 1rem;
+}
+.Adresler .AdresCard li:first-child, .Adresler .AdresCard li:last-child {
+    padding: .5rem 0;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.Adresler .AdresCard li:first-child{
+    border-bottom: 1px dotted #353745;
+}
+.Adresler .AdresCard li:last-child img {
+    width: 16px;
+    height: 16px;
+}
+
+.Adresler .hesabimRow li, .Adresler .hesabimRow li a {
+    border: 1px solid transparent;
+}
+
+.Adresler .hesabimRow li a {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.Adresler .hesabimRow li:hover,
+.Adresler .hesabimRow li:hover a {
+    color: #ffff;
+    border: 1px solid transparent;
+}
+
+.Adresler .hesabimRow li {
+    border: 1px solid transparent;
+    border-right: 1px dashed #646465;
+    transition: .2s;
+}
+
+
+.Adresler .hesabimRow li:first-child {
+    border-left: 1px dashed #646465
+}
+
+/* siparişler */
+
+.SiparisCard li img, .YorumCard li:first-child img {
+    width : 60px;
+    height : 90px;
+}
+
+.SiparisCard li span {
+    text-align: left;
+}
+.SiparisCard li:last-child img {
+    margin-right: 1rem;
+}
+
+/* sayfalama  */
+
+.sayfalarKapsam {
+    padding: 1rem;
+}
+
+.SayfalamaButtons {
+    margin-top: 1rem;
+}
+
+.SayfalamaButtons span {
+    padding: .1rem;
+}
+
+.SayfalamaButtons span.aktif {
+    color: #F9F9F9;
+}
+
+.SayfalamaButtons span a {
+    font-size: 1rem;
+}
+
+/* yorum yap */
+
+.YorumYap .formgroup:first-child {
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin : 1rem 0;
+}
+
+.puan {
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+}
+
+.puan input, .puan label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.puan input {
+    opacity: 0;
+}
+
+.puan label {
+    font-size: 1rem;
+    border-radius: 50%;
+    color: #F9F9F9;
+}
+
+.puan label.active {
+    background-color: #FF7A38;
+}
+
+.UrunBody ul li span {
+    padding: .1rem .5rem;
+}
+
+/* yorumlar */
+
+.YorumCard {
+    margin-bottom: 1rem;
+}
+
+.YorumCard li {
+    padding: .5rem 1rem;
+}
+
+.YorumCard li:last-child {
+    color: #959595;
+}
+
+/* erkek ayakkabıları*/
+
+.Kapsam {
+    align-items: flex-start;
+    justify-content: center;
+} 
+.Kapsam ul:first-child {
+    width: 25%;
+}
+
+.Kapsam ul:last-child {
+    width: 100%;
+    padding: .5rem;
+}
+.Menuler nav {
+    gap: .5rem;
+    align-items: flex-start;
+    width: 100%;
+    padding: .5rem;
+    background: #F9F9F9;
+}
+
+.menulerHeader,
+.BannerHeader {
+    padding: .5rem;
+    background: #c4c4c4;
+}
+/* arama kutusu */
+.aramaKutusu form {
+    gap: .5rem
+}
+.aramaKutusu input {
+    width: 100%;
+    border-radius: .5rem;
+    border: 2px solid #959595;
+}
+.aramaKutusu input:focus {
+    border: 2px solid black;
+    text-align: left;
+}
+.aramaKutusu input, .aramaKutusu button {
+    padding: .5rem;
+    
+}
+
+.aramaKutusu button {
+    cursor: pointer;
+    border-radius: 50%;
+    display: none;
+}
+/* arama kutusu bitiş */
+
+.urunlerListele {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 210px);
+    gap: 1.5rem;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.urunlerListele li {
+    /* border: 1px solid #c4c4c4; */
+    box-shadow: -.5px 1px 4.5px #c4c4c4;
+    padding: 1rem .5rem;
+}
+
+.urunimg {
+    width: 100%;
+}
+
+.urunimg img {
+    width: 100%;
+}
+
+.urunDetay {
+    padding: 0 .5rem;
+    margin-top: 1rem;
+    gap: .5rem;
+}
+
+.urunDetay span, .urunDetay span a{
+    color: #FF7A38 ;
+    text-transform: capitalize;
+}
+
+.urunDetay span a {
+    display: block;
+    padding-bottom: .5rem;
+}
+.urunDetay span a, .yorumlar_ li {
+    border-bottom: 1px solid #efefef;
+}
+.urunResimleri {
+    width: 400px;
+}
+.buyukresim {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: -.5px 1px 4.5px #c4c4c4;
+    margin-bottom: 1rem;
+}
+.buyukresim img {
+    width: 100%;
+    height: 100%;
+}
+.urunBilgileri, .buyukresim {
+    width: 100%;
+}
+
+/* urun detay sayfasi  */
+
+.urunDetaylar, .SepetDetay {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 5%;
+}
+.kucukresimler {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.kucukresimler li {
+    width: 25%;
+}
+
+.kucukresimler li img {
+    border: .5px solid #efefef;
+    width: 100%;
+    height: 100%;
+}
+
+.kucukresimler li img {
+    width: 100%;
+    cursor: pointer;
+}
+.urunBilgileri {
+    padding: 0 .5rem;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.urunBilgileri li {
+    width: 100%;
+    border-bottom: .5px solid #efefef;
+    padding-bottom: .5rem;
+}
+
+.urunBilgileri li:first-child {
+    font-weight: bolder;
+}
+.urunBilgileri li:first-child, .urunBilgileri li:nth-child(2) {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: #FF7A38;
+}
+.urunBilgileri li:nth-child(3) {
+    display: flex;
+    gap: 1rem;
+}
+.urunBilgileri li:nth-child(4) {
+    display: flex;
+    gap: 1rem;
+}
+.urunBilgileri li:nth-child(4) form button {
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    background: #0088CC;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.urunBilgileri li:nth-child(4), .urunBilgileri li:nth-child(4) form{
+    width: 100%;
+}
+
+.urunBilgileri li:nth-child(4) form {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.urunBilgileri li:nth-child(4) form .f_group {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: relative;
+    border: 2px solid #c4c4c4;
+}
+
+.urunBilgileri li:nth-child(4) span label, .urunBilgileri li:nth-child(4) span input {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.urunBilgileri li:nth-child(4) span input{
+    opacity: 0;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+.urunBilgileri li:nth-last-child(2) {
+    margin-bottom: 1.5rem;
+}
+
+.urunBilgileri li:last-child h3,.urunYorumlari, .yorumlar, .urunYorumlari h1 {
+    width: 100%;
+}
+
+.urunBilgileri li:last-child h3, .urunYorumlari h1 {
+    background: #FF7A38;
+    color: #ffff;
+    padding: 0 .5rem;
+    margin-bottom: 1rem;
+
+}
+.urunBilgileri li:last-child h3 {
+    font-size: 1.2rem;
+}
+
+.urunYorumlari h1 {
+    font-size: 1.3rem;
+}
+
+.yorumlar_ {
+    min-height: 25vh;
+    max-height: 50vh;
+    overflow-y: auto;
+}
+
+.yorumlar_ li {
+    padding: 1rem .5rem;
+}
+
+.yorumlar_ h2 {
+    font-size: 1.21rem;
+    margin-bottom: .1rem;
+}
+
+.yorumlar_ img {
+    width: 4rem;
+}
+
+.yorumlar_ p {
+    margin-top: .5rem;
+}
+
+/* sepet  */
+
+.SepetUrunBilgiler {
+    width: 50%;
+}
+
+.sepetHeader h2 {
+    font-weight: bolder;
+    font-size: 1.3rem;
+    color: #FF7A38;
+    margin-bottom: .5rem;
+}
+
+.sepetHeader {
+    padding: 1rem 0;
+    border-bottom: 1px dashed #646465;
+    text-align: center;
+}
+
+.SepetUrunler li:not(:first-child) {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.SepetUrunler li span:not(:nth-child(3)) {
+    width: 50%;
+}
+
+.SepetUrunler li span:nth-child(3){
+    width: 100%;
+}
+
+.SepetUrunler li span:not(:first-child) {
+    text-align: center;
+}
+
+.SepetUrunler li span:first-child img {
+    width : 90px;
+    height : 135px;
+}
+
+.SepetUrunler li span:nth-child(5) {
+    gap: .5rem;
+}
+
+.SepetUrunler li span:nth-child(5) span {
+    border: 1px solid #959595;
+    width: 2rem;
+    height: 2rem;
+}
+
+.SepetUrunler li span small {
+    font-size : .7rem;
+    display: block;
+    color: #959595;
+}
+
+.SepetUrunBilgiler li:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.SepetUrunBilgiler li div {
+    text-align: center;
+}
+
+.SepetUrunBilgiler li div:first-child {
+    text-transform: uppercase;
+    font-size: 1.1;
+}
+
+.SepetUrunBilgiler li:nth-child(2) div:last-child {
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+
+.devamEt {
+    display: flex;
+    text-align: center;
+    background: #0088CC;
+    padding: 1rem .5rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    transition: .3s;
+    color: white;
+    cursor: pointer;
+    gap: 1rem;
+    justify-content: center;
+    width: 100%;
+}
+
+.devamEt:hover {
+    background: #FF7A38;
+}
+
+/* adres seçimi */
+
+.Adresler li:not(:first-child) {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+.Adresler li label {
+    width: 100%;
+}
+.Adresler li span:first-child {
+    display: block;
+    text-transform: uppercase;
+    font-weight: bolder;
+    background: #efefef;
+    margin-bottom: .5rem;
+    padding: .5rem;
+}
+
+.Adresler li span:not(:first-child){
+    padding: .5rem;
+}
+.AdresBaslik {
+    margin: 1rem 0;
+}
+.AdresBaslik h1 {
+    background: #FF7A38;
+    width: 100%;
+    text-align: center;
+    padding: .5rem 0;
+    font-size: 1.3rem;
+    color: #ffff;
+    font-weight: bolder;
+}
+
+/* ödeme kart/taksit seçim  */
+
+/* banka kart 46x12  */
+.bnkimg_s {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1rem;
+}
+.bnkimg {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #c4c4c4;
+}
+
+.TaksitSatir {
+    border-top: 1px dashed #c4c4c4;
+    border-bottom: 1px dashed #c4c4c4;
+    padding: .5rem 0;
+    margin: .3rem 0;
+}
+
+.TaksitSatir, .TaksitSatir label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.TaksitSatir label span {
+    width: 100%;
+    text-align: end;
+}
+
+.OdemeYontemiSec, .OdemeYKapsayici, .OdemeYontemiSec label  {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.OdemeYontemiSec label img {
+    height: 30px;
+}
+
+.CardItem {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: .5rem;
+    gap: 1rem;
+}
+.CardItem input[type=text], .CardItem select option {
+    height: 2.5rem;
+}
+#KartNO {
+    width: 100%;
+}
+
+#GKodu {
+    width: 10%;
+}
+.CardItem div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: .5rem;
+}
+
+.inputgroup {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.inputgroup label, .inputgroup select, .inputgroup input {
+    width: 100%;
+    text-align: end;
+}
+
+/* Ana sayfa  */
+
+/* .HomeBanner, .HomeBanner img,  */
+
+.TumUrunler {
+    width: 100%;
+}
+.TumUrunler {
+    margin: 1.5rem 0;
+}
+
+.HomeFooter {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-bottom: 3rem;
+    padding: 1rem 0;
+}
+
+.HomeFooter  li {
+    text-align: center;
+    padding: .5rem;
+}
+
+.HomeFooter  li h2 {
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+.HomeFooter  li p {
+    border: none;
+}
+.HomeKategoriler {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: .2rem;
+}
+
+.HomeKategoriler a {
+    display: block;
+}
+
+.HomeKategoriler a img {
+    width: 100%;
+}
+
+.mobileKategori {
+    display: none;
+}
+
+/* mobil navbar  */
+
+.closeIcon, .OnpenIcon {
+    height: 100%;
+    display: inline-block;
+    cursor: pointer;
+    display: none;
+}
+
+.navbarIcons {
+    height: 4rem;
+    text-align: end;
+    display: block;
+    width: 90%;
+    padding: 1rem;
+    display: none;
+}
+
+.mobileBar {
+    display: none;
+    cursor: pointer;
+    background: #0088CC;
+}
+
+.mobileBar img {
+    filter: invert(100%);
+}
+
+.DestekItem img {
+    filter: invert(30%);
+}
+
+/* ana sayfa ürünler  */
+
+       
+.UrunLer {
+    width: 100%;
+    border-bottom: 1px solid   #efefef;
+    margin: 1.5rem 0;
+}
+.UrunLer h1 {
+    width: 100%;
+    background: #efefef;
+    color:#353745;
+    padding: .8rem;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+.wrapper {
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+    padding: 1rem;
+}
+
+.boxkapsayici {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.boxkapsayici.dragging {
+    scroll-behavior: auto;
+    cursor: grab;
+}
+
+.box {
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 20px;
+}
+
+.boximg {
+    width: 250px;
+    box-shadow: -.5px 1px 4.5px #c4c4c4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    padding: .5rem;
+    background: #ffff;
+}
+
+.boximg>* {
+    width: 100%;
+    text-align: center;
+}
+.boximg a:last-child {
+    border-top: 1px solid #c4c4c4;
+    padding-top: .5rem;
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+.boximg a img {
+    width: 100%;
+}
+.boximg span {
+    color: #FF7A38;
+}
+.icon {
+    box-shadow: -.5px 1px 4.5px #c4c4c4;
+    height: 50px;
+    width: 50px;
+    background: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.icon:first-child {
+    left: 0;
+}
+
+.icon:last-child {
+    right: 0;
+}
+
+.icon i {
+    color: rgb(97, 97, 97);
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+
+/* animation  */
+
+.tamDondur {
+    animation-name: Tamdondur;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes Tamdondur {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(180deg);
+    }
+}
+
+
+
+/* slider code  */
+#sliderAlan {
+    width: 100%;
+}
+
+.imgdiv {
+    width: 100%;
+    /* height: 400px; */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgdiv img {
+    width: 100%;
+    transition: 0.5 ease-in-out;
+}
+
+.sliderContainer {
+    position: relative;
+    width: 100%;
+    padding: .1rem;
+}
+
+.slider_btn, .MobileSliderBtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    cursor: pointer;
+    transition: 0.3 ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.slider_btn img, .MobileSliderBtn img {
+    background: rgba(0, 0, 0, 0.212);
+    border-radius: 50%;
+    filter: invert(100%);
+}
+.slider_btn:hover img, .MobileSliderBtn img {
+    filter: invert(90%);
+    background-color: rgba(255, 255, 255, 0.411);
+}
+
+.prev, .Mobileprev {
+    left: 5%;
+}
+
+.next, .Mobilenext {
+    right: 5%;
+}
+
+.dots {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.dots .slider_circle:nth-child(1), .Mobiledots .slider_circleMobile:nth-child(1){
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: white;
+}
+
+.dots .slider_circle, .Mobiledots .slider_circleMobile {
+    background: rgba(255, 255, 255, 0.419);
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 1px solid transparent;
+}
+
+@keyframes slider_a {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media(max-width:600px) {
+    .sliderContainer {
+        width: 100%;
+    }
+}
+
+.slider_imgMobile:not(:first-child) {
+    display: none;
+}
+
+#WebSlider, #MobileSlider {
+    width: 100%;
+}
+
+#WebSlider {
+    display: block;
+}
+#MobileSlider {
+    display: none;
+}
+
+header nav {
+    background: #F9F9F9;
+}
