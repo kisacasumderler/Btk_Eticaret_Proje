@@ -166,7 +166,7 @@ function urunGetir($deger){
                             alt=""></a>
                     <a href="<?php echo DonusumleriGeriDondur(SEO($values["urunTuru"]))."/".DonusumleriGeriDondur(SEO($values["urunAdi"]))."/".DonusumleriGeriDondur($values["id"]); ?>"
                         class="light"><?php echo $values["urunAdi"]?></a>
-                    <span>379,99₺</span>
+                    <span><?php echo FiyatBicimlendir(TLCevir(DonusumleriGeriDondur($values["paraBirimi"])) * DonusumleriGeriDondur($values["urunFiyati"]));?></span>
                 </div>
             </li>
             <?php
