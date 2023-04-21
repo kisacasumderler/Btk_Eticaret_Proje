@@ -28,7 +28,7 @@ GenişlikxYükseklik = 600x800, oranlı olarak daha büyük boyutlar istenirse e
 jpeg, jpg yüklenebilir. 
 Ürün resmi ekleme Ana menü -> Ürünler -> Ürün ekle butonundan yapılabilir. 
 
-[Bağlantı](https://btkegitimeticaret.great-site.net/) buradan tasarımı inceleyebilirsiniz. 
+[buradan](https://btkegitimeticaret.great-site.net/) tasarımı inceleyebilirsiniz. 
 
 ### masaüstü önizleme(görünüm) : 
 
